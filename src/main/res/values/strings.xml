@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PauseRecord</string>
+    <string name="permissions_denied_exit">Permissions denied, exit.</string>
+</resources>
