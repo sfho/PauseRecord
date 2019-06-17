@@ -139,8 +139,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         } else {
             String[] neededPermissions = {
                     Manifest.permission.RECORD_AUDIO,
-                    Manifest.permission.WRITE_EXTERNAL_STORAGE,
-                    Manifest.permission.MOUNT_UNMOUNT_FILESYSTEMS
+                    Manifest.permission.WRITE_EXTERNAL_STORAGE
             };
             List<String> deniedPermissions = new ArrayList<>();
             for (String permission : neededPermissions) {

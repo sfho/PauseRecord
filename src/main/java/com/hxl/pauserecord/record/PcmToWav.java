@@ -48,9 +48,9 @@ public class PcmToWav {
         header.fileLength = TOTAL_SIZE + (44 - 8);
         header.FmtHdrLeth = 16;
         header.BitsPerSample = 16;
-        header.Channels = 2;
+        header.Channels = 1;
         header.FormatTag = 0x0001;
-        header.SamplesPerSec = 8000;
+        header.SamplesPerSec = 16000;
         header.BlockAlign = (short) (header.Channels * header.BitsPerSample / 8);
         header.AvgBytesPerSec = header.BlockAlign * header.SamplesPerSec;
         header.DataHdrLeth = TOTAL_SIZE;
